@@ -1,0 +1,526 @@
+/* Big Screen*/
+
+@media screen and (max-width: 2000px){
+    #logo{
+        position: absolute;
+        top: 3%;
+        left: 40%;
+    }
+    .dropbtn {
+visibility: hidden;
+    }
+.dropdown-content {
+    visibility: hidden;
+
+}    
+    #index-container{
+       
+    }
+    #background{
+    width: 50%;
+    position: absolute;
+        left: 25%;
+    top: 18%;
+           border: 20p;
+        border-color: black;
+        border-style: solid;
+    
+      
+        
+    }
+    #descriptionMainPage{
+    position: fixed;
+        font-family: 'Patua One', cursive;
+        font-size: 42p;
+    bottom: 8%;
+    left: 46.5%;
+    }
+    #button{
+    width: 4%;
+    position: fixed;
+        margin-top:10%; 
+    bottom: 0%;
+    left: 48%;
+    }
+    #paragraph{
+    position: absolute;
+        font-family: 'Roboto Slab', serif;
+    top: 39%;
+    left: 2%;
+    text-align: left;
+        padding-bottom: 15%;
+    }
+    #h1About{
+    position: absolute;
+        font-family: 'Patua One', cursive;
+        font-size: 42p;
+    top: 20%;
+    left: 1.5%;        
+    }
+    
+    #video{
+    position: absolute;
+        left: 30%;
+    width: 32%;
+    top: 58%;
+    }
+    #servicesText{
+    position: absolute;
+    font-family: 'Roboto Slab', serif;
+    top: 19%;
+    text-align: left;
+    }
+    #instagramLogo{
+    width: 11%;
+    position: absolute;
+    left: 25%;
+    bottom: 65%;
+    }
+    #instagramTitle{
+    position: absolute;
+        font-family: 'Patua One', cursive;
+    top: 18.5%;
+    left: 37%;        
+    }
+    #facebookLogo{
+    position: absolute;
+    top: 35%;
+    width: 9%;
+    left: 26%;
+    }
+    #facebookTitle{
+    position: absolute;
+        font-family: 'Patua One', cursive;
+    top: 39%;  
+    left: 37%;
+    }
+
+    #phoneLogo{
+    position: absolute;
+        
+    top: 58%;
+    width: 7%;
+    left: 27%;
+    }
+    #phoneTitle{
+    position: absolute;
+        font-family: 'Patua One', cursive;
+        font-size: 42p;
+    top: 58%;
+    left: 37%;        
+    }
+    #emailLogo{
+    position: absolute;
+
+    left: 26%;
+    bottom: 10%;
+    width: 8%;
+    }
+    #emailTitle{
+    position: absolute;
+        font-family: 'Patua One', cursive;
+        font-size: 42p;
+    left: 37%;
+    top: 74%;       
+    }  
+    #textGallery{
+    position: absolute;
+        font-family: 'Patua One', cursive;
+        font-size: 42p;
+    top: 25%;        
+    }
+    #pictures{
+    position: absolute;
+    top: 46%;   
+            left: 10%;
+    }
+    .pic1{
+           width: 15%; 
+    }
+    .pic1:hover{
+    transform: scale(1.5);
+    }
+    .pic2:hover{
+    transform: scale(1.5);
+    }
+    .pic3:hover{
+    transform: scale(1.5);
+    }
+    .pic4:hover{
+    transform: scale(1.5);
+    }
+    .pic5:hover{
+    transform: scale(1.5);
+    }
+    .pic1:hover{
+    transform: scale(1.5);
+    }
+    .por1:hover{
+    transform: scale(1.5);
+    }
+    .por2:hover{
+    transform: scale(1.5);
+    }
+    .por3:hover{
+    transform: scale(1.5);
+    }
+    .por4:hover{
+    transform: scale(1.5);
+    }
+    .dr1:hover{
+    transform: scale(1.5);
+    }
+    .dr2:hover{
+    transform: scale(1.5);
+    }
+    .dr3:hover{
+    transform: scale(1.5);
+    }
+    .dr4:hover{
+    transform: scale(1.5);
+    }
+    .dr5:hover{
+    transform: scale(1.5);
+    }    
+    .pic2{
+            width: 15%;
+    }    
+    .pic3{
+            width: 15%;
+    }
+    .pic4{
+            width: 15%;
+    }
+    .pic5{
+            width: 15%;
+    }  
+    #hThreeGallery{
+    position: absolute;
+        font-family: 'Patua One', cursive;
+        font-size: 42p;
+    top: 71%;    
+    }
+    #portrait{
+    position: absolute;
+    top: 71%;    
+            left: 10%;
+    }
+    .por1{
+           width: 15%; 
+    }
+    .por2{
+            width: 15%;
+    }    
+    .por3{
+            width: 15%;
+    }
+    .por4{
+            width: 15%;
+    }   
+    #drawingH{
+    position: absolute;
+        font-family: 'Patua One', cursive;
+    top: 114%;
+    }
+    #drawings{
+    position: absolute;
+    top: 124%; 
+            left: 10%;
+    }
+    .dr1{
+           width: 15%; 
+    }
+    .dr2{
+            width: 15%;
+    }    
+    .dr3{
+            width: 15%;
+    
+    }
+    .dr4{
+            width: 15%;
+    }
+    .dr5{
+            width: 15%;
+    }  
+    #buttonGallery{
+    width: 6%;
+    position: absolute;
+    bottom: -71%;
+    left: 48%;
+    }
+}
+
+
+
+/* Small screen*/
+
+@media screen and (max-width: 600px){
+        #logo{
+        position: absolute;
+        top: 3%;
+        left: 27%;
+        width: 50%;    
+    }
+    #background{
+   width: 73%;
+    position: absolute;
+    left: 15%;
+    top: 18%;
+    }
+    #descriptionMainPage{
+    position: absolute;
+    font-family: 'Patua One', cursive;
+        font-size: 32p;
+    bottom: 32%;
+    left: 38%;
+    font-size: 20px;
+    }
+    #button{
+    width: 10%;
+    position: absolute;
+    bottom: 2%;
+    left: 44%;
+    }
+    #paragraph{
+    position: absolute;
+        font-family: 'Roboto Slab', serif;
+    top: 34%;
+    left: 0%;
+    text-align: left;
+    }
+    #h1About{
+    position: absolute;
+        font-family: 'Patua One', cursive;
+    top: 20%;
+    left: 1.5%;        
+    }
+    
+     #video{
+    position: absolute;
+    width: 50%;
+    top: 80%;
+    }
+    
+    #servicesText{
+    position: absolute;
+        font-family: 'Roboto Slab', serif;
+    top: 19%;
+    text-align: left;
+    font-size: 80%;    
+    }
+    #instagramLogo{
+    position: absolute;
+    width: 11%;
+    left: 10%;
+    bottom: 71%;
+    }
+    #instagramTitle{
+    position: absolute;
+        font-family: 'Patua One', cursive;
+    top: 22.5%;
+    left: 22%;
+    font-size: 18px;       
+    }
+    #facebookLogo{
+    position: absolute;
+    top: 35%;
+    width: 10%;
+    left: 10%;
+    }
+    #facebookTitle{
+    position: absolute;
+        font-family: 'Patua One', cursive;
+    top: 35%;
+    left: 22%;
+    font-size: 18px;
+    }
+
+    #phoneLogo{
+    position: absolute;
+    top: 50%;
+    width: 7%;
+    left: 12%;
+    }
+    #phoneTitle{
+    position: absolute;
+        font-family: 'Patua One', cursive;
+    top: 48%;
+    left: 23%;
+    font-size: 18px;       
+    }
+    #emailLogo{
+    position: absolute;
+    left: 12%;
+    bottom: 35%;
+    width: 8%;
+    }
+    #emailTitle{
+    position: absolute;
+    left: 23%;
+    top: 59%;
+    font-size: 18px;     
+    } 
+#textGallery{
+    position: absolute;
+    font-family: 'Patua One', cursive;
+    top: 16%;        
+    }
+    #pictures{
+    position: absolute;
+    top: 37%;
+            left: 10%;
+    }
+    .pic1:hover{
+    transform: scale(1.5);
+    }
+    .pic2:hover{
+    transform: scale(1.5);
+    }
+    .pic3:hover{
+    transform: scale(1.5);
+    }
+    .pic4:hover{
+    transform: scale(1.5);
+    }
+    .pic5:hover{
+    transform: scale(1.5);
+    }
+    .pic1:hover{
+    transform: scale(1.5);
+    }
+    .por1:hover{
+    transform: scale(1.5);
+    }
+    .por2:hover{
+    transform: scale(1.5);
+    }
+    .por3:hover{
+    transform: scale(1.5);
+    }
+    .por4:hover{
+    transform: scale(1.5);
+    }
+    .dr1:hover{
+    transform: scale(1.5);
+    }
+    .dr2:hover{
+    transform: scale(1.5);
+    }
+    .dr3:hover{
+    transform: scale(1.5);
+    }
+    .dr4:hover{
+    transform: scale(1.5);
+    }
+    .dr5:hover{
+    transform: scale(1.5);
+    }       
+    .pic1{
+           width: 15%; 
+    }
+    .pic2{
+            width: 15%;
+    }    
+    .pic3{
+            width: 15%;
+    }
+    .pic4{
+            width: 15%;
+    }
+    .pic5{
+            width: 15%;
+    }  
+    #hThreeGallery{
+    position: absolute;
+        font-family: 'Patua One', cursive;
+    top: 46%;    
+    }
+    #portrait{
+    position: absolute;
+    top: 57%; 
+            left: 10%;
+    }
+    .por1{
+           width: 15%; 
+    }
+    .por2{
+            width: 15%;
+    }    
+    .por3{
+            width: 15%;
+    }
+    .por4{
+            width: 15%;
+    }   
+    #drawingH{
+    position: absolute;
+    top: 69%;
+    }
+    #drawings{
+    position: absolute;
+    top: 79%; 
+            left: 10%;
+    }
+    .dr1{
+           width: 15%; 
+    }
+    .dr2{
+            width: 15%;
+    }    
+    .dr3{
+            width: 15%;
+    }
+    .dr4{
+            width: 15%;
+    }
+    .dr5{
+            width: 15%;
+    }  
+    #buttonGallery{
+    width: 8%;
+    position: absolute;
+    bottom: 4%;
+    left: 45%;
+    }  
+.dropbtn {
+    visibility: visible;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    visibility: visible;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}    
+}
